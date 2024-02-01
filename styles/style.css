@@ -1,3 +1,4 @@
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -13,7 +14,30 @@ h1 {
     color: steelblue;
 }
 
-img {
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 500px;
+    margin: 10px;
+    border: 10px solid rgb(71, 69, 60);
+    padding: 5px;
+    background-color: #020202;
+    color: #f0c632;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+aside p {
+    font-style: italic;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -23,4 +47,10 @@ img {
 
 p {
     padding: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 5px#a19f9f;
+    text-align: center;
 }
