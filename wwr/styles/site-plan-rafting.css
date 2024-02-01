@@ -1,0 +1,53 @@
+@import url('https://fonts.google.com/share?selection.family=Saira:ital,wght@0,100..900;1,100..900');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #D0ABA0;
+    --secondary-color: #BEE7E8;
+    --accent1-color: #2D2D2A;
+    --accent2-color: #726DA8;
+    
+    --heading-font: sans-serif;
+    --paragraph-font: Arial;
+
+    --nav-background-color: #726DA8;
+    --nav-link-color:#2D2D2A;
+    --nav-hover-link-color: #D0ABA0;
+    --nav-hover-background-color:#D0ABA0;
+}
+
+header {
+    background-color: #D0ABA0;
+    padding: 10px;
+}
+
+p {
+    padding: 5px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
