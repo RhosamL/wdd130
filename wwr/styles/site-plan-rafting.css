@@ -1,10 +1,4 @@
-@import url('https://fonts.google.com/share?selection.family=Saira:ital,wght@0,100..900;1,100..900');
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 960px;
-    padding: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap')
 
 :root {
     --primary-color: #D0ABA0;
@@ -12,8 +6,8 @@ body {
     --accent1-color: #2D2D2A;
     --accent2-color: #726DA8;
     
-    --heading-font: sans-serif;
-    --paragraph-font: Arial;
+    --heading-font: Roboto-bold;
+    --paragraph-font: Roboto;
 
     --nav-background-color: #726DA8;
     --nav-link-color:#2D2D2A;
@@ -22,14 +16,25 @@ body {
 }
 
 header {
-    background-color: #D0ABA0;
-    padding: 10px;
+  background-color: var(--primary-color);
+  padding: 10px;
 }
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
 
 p {
-    padding: 5px;
+    padding: 15px;
 }
 
+h1, h2, h3, h4, h5, h6{
+  color: var(--accent2-color);
+  font-family: var(--paragraph-font);
+}
 nav {
   background-color: var(--nav-background-color);
   font-size: 1.2rem;
