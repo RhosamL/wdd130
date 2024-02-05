@@ -4,9 +4,9 @@ main {
 
 aside {
     width: 15rem;
-    margin: 3rem;
+    margin: 5rem;
     border: 10px slateblue;
-    padding: 5rem;
+    padding: 2rem;
     background-color: darkslateblue;
     color: cadetblue;
     text-align: center;
@@ -19,7 +19,7 @@ aside img {
 }
 
 main img {
-    width: 150px;
+    width: 250px;
     height: auto;
 }
 
