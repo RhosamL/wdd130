@@ -11,7 +11,7 @@ nav {
   background-color: steelblue;
   padding: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: bold;
+}
 
   h1 {
   font-size: 36pt;
@@ -23,6 +23,7 @@ main img {
   width: 840px;
   height: auto;
   float: right;
+  margin-right: 10px;
 }
 
 p {
@@ -39,6 +40,10 @@ body {
     padding: 20px;
 }
 
+main p {
+  clear: right;
+}
+
 aside {
   width: 500px;
   margin: 10px;
@@ -46,6 +51,7 @@ aside {
   padding: 5px;
   background-color: #020202;
   color: #f0c632;
+  position: relative;
 }
 
 aside img {
@@ -61,8 +67,7 @@ aside p {
 
 aside h2 {
   position: absolute;
-  top: 40px;
-  left: 0px;
+  top: 0px;
   right: 200px;
 }
 p {
