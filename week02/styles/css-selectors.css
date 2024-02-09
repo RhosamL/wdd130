@@ -1,0 +1,39 @@
+/* CSS selectors lert you select and style html element. used to find html elements based theri: ID, class, types, atrributes, values of attributes */
+
+/* CSS: ID, Class, Universal, Element, Group */
+
+/* css element selector: Selects based on the name of the element */
+p {
+    color: bisque;
+}
+/* All <p> elements on the page will be colored */
+
+/* CSS ID: selects the html element with specific id attribute ID is written with the # character followed by the ID. */
+#para1 {
+    text-align: center;
+}
+/* id = para1 while on the html file, to make id element: <p id='para1'>Welcome to Css styles</p> */
+
+/* Css class selector uses the class attribute to select a specific hmtl element. To use a class selector, start with a period before writing the name of the class. */
+
+.class7 {
+    color: aliceblue;
+}
+/* class = class7 in the html file, like this: <p class="class7">This is a paragraph.</p> */
+
+* { /* selects all elements */
+    background-color: lightgray;
+    }
+    
+/* Group selector selects all elements with the same style definition. Commas are used to seperate each selector */
+h1, h2, h3, p {
+    color: brown;
+}
+
+/* CSS FLOATS */
+/* Float property makes texts wrap around the image, or fill up the spaces */
+
+/* To do this: <style selector> float: left/right; </style> */
+/* Margin can also be used to create a space around the picture. */
+
+/* Sometimes the image can be larger than the paragraph, and it sticks into the other paragraph. You need to <clear>. Meaning the browser should drop the next paragraph below anything that was floated to the left/right depending. */
