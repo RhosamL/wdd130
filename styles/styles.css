@@ -52,12 +52,19 @@ aside img {
   width: 200px;
   height: auto;
 }
+
 aside p {
   font-style: italic;
   font-family: sans-serif;
   padding: 0;
 }
 
+aside h2 {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  right: 200px;
+}
 p {
     padding: 15px;
     font-style: italic;
