@@ -9,6 +9,17 @@
     --add-color1: #f5b39c;
 }
 
+* {
+    background-color: burlywood;
+}
+
+header img {
+    width: 80px;
+    position: absolute;
+    height: 100px;
+    left: 0px;
+}
+
 h1, h2, h3, p {
     background-color: var(--add-color1);
     font-weight: normal;
@@ -16,21 +27,24 @@ h1, h2, h3, p {
     color: var(--secondary-color);
 }
 
+
 body {
     width: 1224px;
 }
 
 .footerlinks img {
     height: 5em;
-    width: auto;
+    width: 7rem;
 }
 
 .hero {
     position: relative;
+    /* display: flex; */
 }
 .hero img {
     width: 100%;
-    height: auto;
+    height: 800px;
+    bottom: 100px;
     display: block;
 }
 
@@ -38,15 +52,11 @@ h1 {
     position: absolute;
 }
 
-p {
+.hero p {
     position: absolute;
 }
 
 img {
     float: right;
     clear: right;
-}
-
-* {
-    background-color: burlywood;
 }
