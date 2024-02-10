@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+:root {
+    --heading-font: serif;
+    --paragraph-font: sans-serif;
+    
+    --primary-color:  #86878a;
+    --secondary-color: #070503df;
+    --add-color1: #f5b39c;
+}
+
+h1, h2, h3, p {
+    background-color: var(--add-color1);
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-color);
+}
+
+body {
+    width: 1224px;
+}
+
+.footerlinks img {
+    height: 5em;
+    width: auto;
+}
+
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    position: absolute;
+}
+
+p {
+    position: absolute;
+}
+
+img {
+    float: right;
+    clear: right;
+}
+
+* {
+    background-color: burlywood;
+}
