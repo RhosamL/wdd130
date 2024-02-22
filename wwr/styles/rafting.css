@@ -230,6 +230,9 @@ td {
     gap:  30px;
     align-items: center;
 }
+.employee img {
+    height: 1500px;
+}
 
 form {
     margin: 50px;
