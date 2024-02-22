@@ -54,6 +54,7 @@ header nav {
 body {
     max-width: 1500px;
     position: absolute;
+    height: auto;
 }
 
 header img {
@@ -157,8 +158,56 @@ section h2 {
     background-color: rgba(210, 220, 230, 0.53);
 }
 
+/* Trips Styles */
+
+.raft2 {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    gap: 20px;
+}
+
+.raft2 h2 {
+    height: 40px;
+}
+
+.raft2 img {
+    width: 1500px;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    height: 900px;
+    gap: 20px;
+
+    font-size: 20px;
+}
+
+.trips img {
+    width: 450px;
+    height: 300px;
+}
 
 
+table {
+    background-color: #7e0f0fc6;
+    margin: 40px;
+
+    width: 1000px;
+    height: 400px;
+}
+
+table, th, td {
+    border: #3c3f48 solid 2px;
+}
+
+td {
+    text-align: center;
+}
 
 .team {
     text-align: center;
@@ -168,7 +217,7 @@ section h2 {
     margin: 60px;
 }
 
-.caption {
+.caption, .raft2 {
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
