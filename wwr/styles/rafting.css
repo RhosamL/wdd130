@@ -21,7 +21,7 @@ h1, h2, p {
 
 header {
     display: grid;
-    background-color: #476b9ba3;
+    background-color: #1c375a91;
     grid-template-columns: 1fr 6fr;
     grid-gap: 0;
 
@@ -160,7 +160,7 @@ section h2 {
 
 /* Trips Styles */
 
-.raft2 {
+.raft2, .home {
     display: flex;
 
     flex-direction: column;
@@ -169,8 +169,9 @@ section h2 {
     gap: 20px;
 }
 
-.raft2 h2 {
+.raft2 h2, .home h1 {
     height: 40px;
+    font-size: 50px;
 }
 
 .raft2 img, .home img {
@@ -290,12 +291,12 @@ label {
     font-size: 25px;
 }
 
-#submit {
+#submit, .submit {
     color: #fff;
     padding: 8px 25px;
 
     border-radius: 5px;
-    background: #7d2ae8;
+    background: #403351;
 }
 
 
@@ -329,6 +330,28 @@ label {
     background-color:var(--add-color1);
     border-radius: 15px;
 }
+.news {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.news fieldset {
+    height:  100%;
+    width: 90%;
+    float: left;
+}
+
+#username, #email {
+    height: 30px;
+    width: 100%;
+
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 
 /* end */
 footer img {
