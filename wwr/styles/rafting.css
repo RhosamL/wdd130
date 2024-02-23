@@ -255,7 +255,6 @@ label {
     border: 10px;
 
     font-family: 'Times New Roman', Times, serif;
-    font: serif;
 }
 
 .company {
@@ -291,7 +290,7 @@ label {
     font-size: 25px;
 }
 
-.submit {
+#submit {
     color: #fff;
     padding: 8px 25px;
 
