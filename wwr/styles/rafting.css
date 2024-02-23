@@ -173,17 +173,17 @@ section h2 {
     height: 40px;
 }
 
-.raft2 img {
+.raft2 img, .home img {
     width: 1500px;
 }
 
-.trips {
+.trips, .white-water {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
     height: 900px;
-    gap: 20px;
-
+    gap: 10px;
+    border-radius: 15px;
     font-size: 20px;
 }
 
@@ -298,6 +298,39 @@ label {
     background: #7d2ae8;
 }
 
+
+/* index styles */
+.white-water img {
+    width: 450px;
+    height: 340px;
+
+    border: #8fa0d3 solid 5px;
+    border-radius: 20px;
+}
+
+.white-water {
+    background-color: #7d2ae81a;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(125, 49, 232, 0.5);
+
+    color: #3a4559;
+}
+
+.white-water p, .white-water, .join, .white-water h4{
+    font-size: 22px;
+    background-color: var(--add-color1);
+    color: #620606cb;
+    text-align: center;
+
+    font-style: italic;
+}
+
+.join {
+    background-color:var(--add-color1);
+    border-radius: 15px;
+}
+
+/* end */
 footer img {
     width: 60px;
     height: 60px;

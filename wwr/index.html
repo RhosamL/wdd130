@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"AS Rafting | Home Page"</title>
-    <meta name="description" content="Alberto Sanchez | WDD 130 | About Us Page Assignment">
-    <meta name="author" content="Alberto Sanchez WD130 Assignment">
+    <meta name="description" content="The home page for the rafting site. Fulfilling the course requirement.">
+    <meta name="author" content="Benson Arosam">
+
+    <title>Benson Arosam | Home</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" alt="Rafting logo" width="150">
+        <img src="images/logo1.png" alt="Rafting logo">
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
@@ -20,60 +21,79 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <div class="home">
-        <img src="images/rafting11.jpg" alt="rafting64_600">
 
-        <h1>Home</h1>
+    <div class="home">
+        <h1>Start your Rafting Journey</h1>
+        <img src="images/raft2.png" alt="raft2">
     </div>
+
     <div>
-        <form action="#">
+        <form class="news" action="#">
             <fieldset>
-                <legend>Newsletter</legend><label for="username">Name:</label><input type="text" id="username"
-                    name="username"><label for="email">Email:</label><input type="email" id="email" name="email">
+                <legend>Newsletter</legend>
+
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <button type="submit" class="submit">Sign Up</button>
+
             </fieldset>
-            <button type="submit" class="book">Sign Up</button>\
-            </form>
+        </form>
     </div>
-    <section class="visit">
-        <fieldset>
-            <h4>Cabins</h4>
-            <p>-Full Service Cabins.</p>
-            <p>-Electric Heat</p>
-            <p>-Two size Cabin to choose</p>
-            <p>-Dishes and cookware for all the cabins.</p>
-            <img src="images/cabin.jpg" alt="Happy" width="300">
-            <button type="submit" class="book">Book</button>
+
+    <!-- Call to action for trips -->
+
+    <div>
+        <p>Tired of boring trips? Checkout <a href="trips.html">these cool pictures</a> taken from our rafting adventures!</p>
+    </div>
+
+    <div class="white-water">
+
+        <fieldset class="join">
+            <legend class="join">Samsil River Trip</legend>
+            <img src="images/raft5.jpg" alt="raft5">
+            <h4>Basking in sun and suuna</h4>
+            
+            <p>Host for range of picturques. There are old temples built way before the archanic era that still hold strong today. Tourist usually flock during them setting evenings to take stunning pictures that'll last their memories of Samsil.</p>
         </fieldset>
-        <fieldset>
-            <h4>Camping</h4>
-            <p>-Full Service from April to September.</p>
-            <p>-15 and 30 Amp Service</p>
-            <p>-Full Service Washrooms.</p>
-            <p>-Firepit and Picnic Tables for all the sites.</p>
-            <img src="images/camping.jpg" alt="Happy" width="300">
-            <button type="submit" class="book">Book</button>
+
+        <fieldset class="join">
+            <legend class="join">Dragon's Waterfall</legend>
+            <img src="images/raft4.jpg" alt="raft4">
+            <h4>Wethering the storm</h4>
+            
+            <p>Feeling that serene atmosphere may just be a little dull? Sooyang has a solution.</p>
+            <p>If the calm river is not your style, why don't you try something different for a start?</p>
         </fieldset>
-        <fieldset>
-            <h4>Rafting Trips</h4>
-            <p>-We have a begginers class.</p>
-            <p>-1/2 Day Trips (5 to 6 hours trip duration)</p>
-            <p>-1 Day Trips (7 to 9 hours trip duration)</p>
-            <p>-2 Days Trips (Meals are provided during trip)</p>
-            <img src="images/rafting10.jpg" alt="Happy" width="300">
-            <button type="submit" class="book">Book</button>
+
+        <fieldset class="join">
+            <legend class="join">Washgroom</legend>
+            <img src="images/raft3.jpg" alt="raft3">
+            <h4>Washgroom beauty</h4>
+
+            <p>Whether it is taking pictures of long winding caves of moss and statutes, or picking fresh abalone as you raft, the Washgroom won't disappoint you.</p>
         </fieldset>
-    </section>
+    </div>
+
     <footer>
-        <p>&copy; 2024 | AS Rafting | Al Sanchez</p>
-        <nav class="sociallinks">
-            <a href="https://albs0917.github.io/wdd130/wwr/wireframetrips.html"><img src="images/iconlogo1.png"
-                    alt="social media icon YouTube"></a>
-            <a href="https://facebook.com"><img src="images/facebookicon.png" alt="social media icon Facebook"></a>
-            <a href="https://instagram.com"><img src="images/instagramicon.png" alt="social media icon Instagram"></a>
-            <a href="https://youtube.com"><img src="images/youtubeicon.png" alt="social media icon YouTube"></a>
+        <p>&copy; 2024, Sooyang, Benson</p>
+
+        <nav class="footerlinks">
+            <a href="https://wwww.facebook.com">
+                <img src="images/facebook.jpeg" alt="facebook">
+            </a>
+
+            <a href="https://wwww.linkedin.com/in">
+                <img src="images/linkedin.jpeg" alt="linkedin">
+            </a>
+
+            <a href="https://www.twitter.com">
+                <img src="images/twitter.jpeg" alt="twitter">
+            </a>
         </nav>
     </footer>
-
 </body>
-
 </html>
